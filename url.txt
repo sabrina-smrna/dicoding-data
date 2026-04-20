@@ -1,2 +1,2 @@
-link deploy streamlit: https://bike-dashboard-dicoding.streamlit.app/
+link deploy streamlit: https://dicoding-data-fundamental.streamlit.app/
 link github: https://github.com/sabrina-smrna/dicoding-data

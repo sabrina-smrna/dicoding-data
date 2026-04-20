@@ -13,6 +13,47 @@ Hasil analisis disajikan dalam bentuk:
 
 ---
 
+## ⚙️ Setup Environment
+
+### 🔹 Menggunakan Anaconda
+
+```bash
+conda create --name main-ds python=3.9
+conda activate main-ds
+pip install -r requirements.txt
+```
+
+---
+
+### 🔹 Menggunakan Terminal (pipenv)
+
+```bash
+mkdir proyek_analisis_data
+cd proyek_analisis_data
+
+pipenv install
+pipenv shell
+
+pip install -r requirements.txt
+```
+
+---
+
+## ▶️ Menjalankan Dashboard (Streamlit)
+
+Pastikan berada di direktori project, lalu jalankan:
+
+```bash
+streamlit run dashboard/dashboard.py
+```
+
+Dashboard akan berjalan di browser pada:
+
+```
+http://localhost:8501
+```
+
+
 ## 🎯 Pertanyaan Bisnis
 
 1. Bagaimana distribusi kategori tingkat penggunaan sepeda (rendah, sedang, tinggi) berdasarkan jumlah penyewaan (cnt) selama periode 2011–2012?
@@ -125,8 +166,7 @@ url.txt
 ## 👤 Author
 
 Nama: Sabrina Marliani
-Email: cdcc156d6x1770@student.devacademy.id
-ID Dicoding: cdcc156d6x1770
+
 
 ---
 
